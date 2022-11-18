@@ -1,5 +1,5 @@
 # fileCompare
- Simple C++ for comparing two text files
+ Simple C++ app for comparing two text files
 
 ## Usage
 1. Open cmd or powershell in the same location as the fileCompare.exe

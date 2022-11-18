@@ -10,6 +10,13 @@ int main(int argc, char** argv) {
     Color::Modifier green(Color::FG_GREEN);
     Color::Modifier def(Color::FG_DEFAULT);
 
+    // Checking if there are enough arguments
+    if(argc != 3) {
+        std::cout << red << "You need to pass two files as arguments!" << def;
+
+        return 0;
+    }
+
     // String for getline output storage
     std::string text1;
     std::string text2;
